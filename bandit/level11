@@ -1,0 +1,7 @@
+bandit11:IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+tr '{abcdefghijklmnopqrstuvwxyz}' '{nopqrstuvwxyzabcdefghijklm}' < data.txt | tr '{ABCDEFGHIJKLMNOPQRSTUVWXYZ}' '{NOPQRSTUVWXYZABCDEFGHIJKLM}'
+
+or 
+
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m' 

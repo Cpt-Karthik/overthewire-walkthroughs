@@ -1,0 +1,5 @@
+bandit9:UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+# use less to open the binary file then use /========== to find, use n to go to next find until u reach flag.
+
+strings data.txt | grep ====

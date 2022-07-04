@@ -1,0 +1,4 @@
+bandit13:8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+ssh -i sshkey.private bandit14@localhost
+cat /etc/bandit_pass/bandit14

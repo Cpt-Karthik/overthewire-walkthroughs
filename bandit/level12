@@ -1,0 +1,21 @@
+bandit12:5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+mkdir /tmp/tmp.something
+cp data.txt /tmp/tmp.something
+cd /tmp/tmp.something
+xxd -r data.txt > data
+mv data data.gz
+gzip -d data.gz
+mv data data.bz2
+bzip2 -d data.bz2
+mv data data.gz
+gzip -d data.gz
+mv data data.tar
+tar -xvf data.tar
+mv data5.bin some.tar
+tar -xvf some.tar
+mv data6.bin any.tar
+tar -xvf any.tar
+mv data8.bin no.gz
+gzip -d no.gz
+cat no
